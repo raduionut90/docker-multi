@@ -10,21 +10,21 @@
     },
     {
       "name": "server",
-      "image": "cygnetops/multi-server-10-14",
+      "image": "ionutradu90/multi-server-10-14",
       "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
       "name": "worker",
-      "image": "cygnetops/multi-worker-10-14",
+      "image": "ionutradu90/multi-worker-10-14",
       "hostname": "worker",
       "essential": false,
       "memory": 128
     },
     {
       "name": "nginx",
-      "image": "cygnetops/multi-nginx-10-14",
+      "image": "ionutradu90/multi-nginx-10-14",
       "hostname": "nginx",
       "essential": true,
       "portMappings": [
