@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "cygnetops/multi-client-10-14",
+      "image": "ionutradu90/multi-client-10-14",
       "hostname": "client",
       "essential": false,
       "memory": 128
